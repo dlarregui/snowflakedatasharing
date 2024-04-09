@@ -20,4 +20,4 @@ You will need either Account Admin, Sys Admin, or Security Admin permissions to 
 
 We’ll start with creating a worksheet in Snowflake by navigating to Projects > Worksheets, and click the the + icon to create a new SQL worksheet.
 
-https://github.com/dlarregui/snowflakedatasharing/blob/4506abcbe2547e16d9210b4afad84d8d25095b49/image%20(5).png
+![Alt text](https://github.com/dlarregui/snowflakedatasharing/blob/4506abcbe2547e16d9210b4afad84d8d25095b49/image%20(5).png)
