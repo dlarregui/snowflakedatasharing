@@ -72,11 +72,30 @@ GRANT USAGE ON INTEGRATION DC_CLOUD TO ROLE PUBLIC;
 DESC USER codeyBear;
 </pre>
 
-Then, we run lines 1-9 to create the security integration by pressing **command + return on a Mac** or **ctrl + enter** on a Windows machine. 
+Then, we run lines 1-9 to create the security integration by pressing **command + return** on a Mac or **ctrl + enter** on a Windows machine. 
 
 ![Alt text](https://github.com/dlarregui/snowflakedatasharing/blob/main/image%20(28).png)
 
+Next, we run line 11 to generate the client ID and secret by pressing **command +return** on a Mac or **ctrl + enter** on a Windows machine. Take note of the client ID and secret as you will need them later. 
 
- 
+![Alt text](https://github.com/dlarregui/snowflakedatasharing/blob/main/image%20(29).png)
 
-  
+Finally, we run line 15 to grant the role access to the security integration. 
+
+![Alt text](https://github.com/dlarregui/snowflakedatasharing/blob/main/image%20(30).png)
+
+## Create the data share target
+
+In Salesforce Data Cloud, navigate to **Data Share Targets** and click **New**. Then select the Snowflake tile. 
+
+![Alt text](https://github.com/dlarregui/snowflakedatasharing/blob/main/image%20(31).png)
+
+Next, we enter a label or name for our connection. For account URL we use our OAuth endpoint and remove everything after “.com.” For example, if our URL is “https://www.myurl.com/oauth/token-request,” we’d remove **“/oauth/token-request.”**
+
+![Alt text](https://github.com/dlarregui/snowflakedatasharing/blob/main/image%20(32).png)
+
+Next, we enter in our client ID and secret.
+
+![Alt text](https://github.com/dlarregui/snowflakedatasharing/blob/main/image%20(33).png)
+
+We should be redirected to a login page to enter a username and password. 
