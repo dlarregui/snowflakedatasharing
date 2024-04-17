@@ -126,23 +126,25 @@ Next, we choose our data share target by clicking the **Link/Unlink Data Share T
 
 Then, we choose our data share target and click **Save**. 
 
+![Alt text](https://github.com/dlarregui/snowflakedatasharing/blob/main/image%20(40).png)
+
 ## Get the data in Snowflake
 
 In Snowflake, we navigate to **Data Products**, then **Private Sharing**. Under **Direct Shares**, we’ll see the data share from Salesforce Data Cloud. We click the **down arrow button** to get the data. 
 
-![Alt text](https://github.com/dlarregui/snowflakedatasharing/blob/main/image%20(40).png)
+![Alt text](https://github.com/dlarregui/snowflakedatasharing/blob/main/image%20(41).png)
 
 We can rename the database and choose which roles can access the database.
 
-![Alt text](https://github.com/dlarregui/snowflakedatasharing/blob/main/image%20(41).png)
+![Alt text](https://github.com/dlarregui/snowflakedatasharing/blob/main/image%20(42).png)
 
 We click **Done** or **View Database** to view the database. Please note that your data might be brought over under a different container. 
 
-![Alt text](https://github.com/dlarregui/snowflakedatasharing/blob/main/image%20(42).png)
+![Alt text](https://github.com/dlarregui/snowflakedatasharing/blob/main/image%20(43).png)
 
 We are then able to see our database under schema and views. We can view our metadata, such as field names and types. 
 
-![Alt text](https://github.com/dlarregui/snowflakedatasharing/blob/main/image%20(43).png)
+![Alt text](https://github.com/dlarregui/snowflakedatasharing/blob/main/image%20(44).png)
 
 We can also preview our data in the database. 
 
