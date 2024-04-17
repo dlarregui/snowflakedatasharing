@@ -39,3 +39,42 @@ CREATE OR REPLACE USER  &lt;Data Cloud Admin or Data Aware Specialist&gt;
   Here is an example of what the SQL should look like to create a user:
 
   ![Alt text](https://github.com/dlarregui/snowflakedatasharing/blob/main/image%20(26).png)
+
+  We’ll then press the play button in the top right-hand corner of the worksheet to run the worksheet. 
+
+ ![Alt text](https://github.com/dlarregui/snowflakedatasharing/blob/main/image%20(27).png)
+
+ ## Set up OAuth and grant access to the PUBLIC role
+
+ Next, we’ll need to create a second SQL worksheet and paste the code block below into our worksheet. 
+
+ <pre language='SQL'>
+CREATE OR REPLACE SECURITY INTEGRATION DC_CLOUD
+TYPE = OAUTH
+ENABLED = TRUE
+OAUTH_CLIENT = CUSTOM
+OAUTH_CLIENT_TYPE = 'CONFIDENTIAL'
+// Update the oauth URI callback
+OAUTH_REDIRECT_URI = 'https://login.salesforce.com/services/cdpSnowflakeOAuthCallback'
+OAUTH_ISSUE_REFRESH_TOKENS = TRUE
+OAUTH_REFRESH_TOKEN_VALIDITY = 7776000;
+
+// Get the client ID and secrets
+select system$show_oauth_client_secrets('DC_CLOUD');
+
+// Use the describe command to get the oauth authorization endpoint
+DESC SECURITY INTEGRATION DC_CLOUD;
+
+// Grant usage on the default role of the user being used in Data Cloud
+GRANT USAGE ON INTEGRATION DC_CLOUD TO ROLE PUBLIC;
+
+// To get the default role of the user
+DESC USER codeyBear;
+</pre>
+
+Then, we run lines 1-9 to create the security integration by pressing command + return on a Mac or ctrl + enter on a Windows machine. 
+
+
+ 
+
+  
