@@ -16,7 +16,7 @@ You will need either Account Admin, Sys Admin, or Security Admin permissions to 
 
 ## Create the Integration User 
 
-We’ll start with creating a worksheet in Snowflake by navigating to Projects > Worksheets, and click the the + icon to create a new SQL worksheet.
+We’ll start with creating a worksheet in Snowflake by navigating to **Projects > Worksheets**, and click the the + icon to create a new SQL worksheet.
 
 ![Alt text](https://github.com/dlarregui/snowflakedatasharing/blob/4506abcbe2547e16d9210b4afad84d8d25095b49/image%20(5).png)
 
@@ -40,7 +40,7 @@ CREATE OR REPLACE USER  &lt;Data Cloud Admin or Data Aware Specialist&gt;
 
   ![Alt text](https://github.com/dlarregui/snowflakedatasharing/blob/main/image%20(26).png)
 
-  We’ll then press the play button in the top right-hand corner of the worksheet to run the worksheet. 
+  We’ll then press the **play button** in the top right-hand corner of the worksheet to run the worksheet. 
 
  ![Alt text](https://github.com/dlarregui/snowflakedatasharing/blob/main/image%20(27).png)
 
@@ -72,7 +72,9 @@ GRANT USAGE ON INTEGRATION DC_CLOUD TO ROLE PUBLIC;
 DESC USER codeyBear;
 </pre>
 
-Then, we run lines 1-9 to create the security integration by pressing command + return on a Mac or ctrl + enter on a Windows machine. 
+Then, we run lines 1-9 to create the security integration by pressing **command + return on a Mac** or **ctrl + enter** on a Windows machine. 
+
+![Alt text](https://github.com/dlarregui/snowflakedatasharing/blob/main/image%20(28).png)
 
 
  
