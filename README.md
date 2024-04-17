@@ -24,6 +24,7 @@ Note: Account Admin, Org Admin, and Security Admin are on the blocked roles list
 
 On the SQL code worksheet, replace < Data Cloud Admin or Data Aware Specialist > with a name for the user. We’ll then need to enter information for each field to create the user. 
 
+<pre language='SQL'>
 CREATE OR REPLACE USER  &lt;Data Cloud Admin or Data Aware Specialist&gt; 
   PASSWORD = &lt;string&gt;
   LOGIN_NAME = &lt;string&gt;
@@ -33,5 +34,6 @@ CREATE OR REPLACE USER  &lt;Data Cloud Admin or Data Aware Specialist&gt;
   LAST_NAME = &lt;string&gt;
   EMAIL = &lt;string&gt;
   DEFAULT_ROLE = PUBLIC;
+  </pre>
 
   Here is an example of what the SQL should look like to create a user:
