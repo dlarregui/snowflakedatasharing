@@ -4,7 +4,7 @@ Data sharing allows developers to share data from Salesforce Data Cloud’s data
 
 ## What is Salesforce Data Cloud?
 
-Data Cloud enables you to build a comprehensive, 360-degree view of your customers across products, services, and interactions. It is natively integrated into the Einstein 1 Platform. Data Cloud has built-in connectors that bring in data from many sources, including Salesforce apps, mobile, web, connected devices, and legacy systems. The data that is ingested and harmonized into Data Cloud can be used to power analytics, marketing, and artificial intelligence. 
+Data Cloud is a customer data platform that has built-in connectors that bring in data from many sources, including Salesforce apps, mobile apps, websites, and legacy systems. The data that is ingested and harmonized into Data Cloud can be used to power analytics, marketing, and artificial intelligence. 
 
 ## What is Snowflake?
 
@@ -37,3 +37,5 @@ CREATE OR REPLACE USER  &lt;Data Cloud Admin or Data Aware Specialist&gt;
   </pre>
 
   Here is an example of what the SQL should look like to create a user:
+
+  ![Alt text](https://github.com/dlarregui/snowflakedatasharing/blob/main/image%20(26).png)
