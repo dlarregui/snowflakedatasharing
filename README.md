@@ -99,3 +99,18 @@ Next, we enter in our client ID and secret.
 ![Alt text](https://github.com/dlarregui/snowflakedatasharing/blob/main/image%20(33).png)
 
 We should be redirected to a login page to enter a username and password. 
+
+![Alt text](https://github.com/dlarregui/snowflakedatasharing/blob/main/image%20(34).png)
+
+Then we are redirected to another page, where we’ll need to click Allow to allow Salesforce Data Cloud to access our Snowflake account. 
+
+![Alt text](https://github.com/dlarregui/snowflakedatasharing/blob/main/image%20(35).png)
+
+We can verify that our data share target was connected successfully by checking that our status is showing as “Active,” and that our authentication status is showing “Successful.”
+
+![Alt text](https://github.com/dlarregui/snowflakedatasharing/blob/main/image%20(36).png)
+
+Now, let’s share our Salesforce Data Cloud data with Snowflake. 
+
+We first navigate to **Data Shares** and click **New.** We then enter a label and choose a data space to associate our data share to. In this case, we will just use our default data space. 
+
