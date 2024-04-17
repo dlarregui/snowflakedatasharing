@@ -2,8 +2,6 @@
 
 Data sharing allows developers to share data from Salesforce Data Cloud’s data lake to systems like Snowflake with a zero-ETL (extract transform load) approach. This approach greatly reduces the time to work with Data Cloud data in an external data lake or system. 
 
-In this blog post, we’ll discuss how to use data sharing to share data from Data Cloud to Snowflake. 
-
 ## What is Salesforce Data Cloud?
 
 Data Cloud enables you to build a comprehensive, 360-degree view of your customers across products, services, and interactions. It is natively integrated into the Einstein 1 Platform. Data Cloud has built-in connectors that bring in data from many sources, including Salesforce apps, mobile, web, connected devices, and legacy systems. The data that is ingested and harmonized into Data Cloud can be used to power analytics, marketing, and artificial intelligence. 
