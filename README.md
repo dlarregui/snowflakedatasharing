@@ -114,3 +114,5 @@ Now, let’s share our Salesforce Data Cloud data with Snowflake.
 
 We first navigate to **Data Shares** and click **New.** We then enter a label and choose a data space to associate our data share to. In this case, we will just use our default data space. 
 
+![Alt text](https://github.com/dlarregui/snowflakedatasharing/blob/main/image%20(37).png)
+
