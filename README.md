@@ -116,3 +116,14 @@ We first navigate to **Data Shares** and click **New.** We then enter a label an
 
 ![Alt text](https://github.com/dlarregui/snowflakedatasharing/blob/main/image%20(37).png)
 
+Next, we choose a data lake object or data model object to share. In this case, we’ll choose to share a data lake object that is ingesting data from Google Cloud Storage (see our previous blog post for information on how to set up this connector). Finally, click **Save.**
+
+![Alt text](https://github.com/dlarregui/snowflakedatasharing/blob/main/image%20(38).png)
+
+Next, we choose our data share target by clicking the **Link/Unlink Data Share Target** button. 
+
+![Alt text](https://github.com/dlarregui/snowflakedatasharing/blob/main/image%20(39).png)
+
+Then, we choose our data share target and click **Save**. 
+
+![Alt text](https://github.com/dlarregui/snowflakedatasharing/blob/main/image%20(40).png)
