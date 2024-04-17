@@ -19,3 +19,19 @@ You will need either Account Admin, Sys Admin, or Security Admin permissions to 
 We’ll start with creating a worksheet in Snowflake by navigating to Projects > Worksheets, and click the the + icon to create a new SQL worksheet.
 
 ![Alt text](https://github.com/dlarregui/snowflakedatasharing/blob/4506abcbe2547e16d9210b4afad84d8d25095b49/image%20(5).png)
+
+Note: Account Admin, Org Admin, and Security Admin are on the blocked roles list by default for new security integrations. If you want to use one of these roles as your integration user, you will need to reach out to Snowflake support. Otherwise, you will need to use a different role. You can also create a custom role. For the purposes of this demo, we are using the Public role. 
+
+On the SQL code worksheet, replace < Data Cloud Admin or Data Aware Specialist > with a name for the user. We’ll then need to enter information for each field to create the user. 
+
+CREATE OR REPLACE USER  &lt;Data Cloud Admin or Data Aware Specialist&gt; 
+  PASSWORD = &lt;string&gt;
+  LOGIN_NAME = &lt;string&gt;
+  DISPLAY_NAME = &lt;string&gt;
+  FIRST_NAME = &lt;string&gt;
+  MIDDLE_NAME = &lt;string&gt;
+  LAST_NAME = &lt;string&gt;
+  EMAIL = &lt;string&gt;
+  DEFAULT_ROLE = PUBLIC;
+
+  Here is an example of what the SQL should look like to create a user:
