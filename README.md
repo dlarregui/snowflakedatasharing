@@ -152,5 +152,5 @@ We can also preview our data in the database.
 
 ## Conclusion
 
-You now know how to connect and share your data from Salesforce Data Cloud to Snowflake using a zero-ETL approach. This powerful knowledge allows you to bypass time-consuming steps and build a robust integration faster. 
+You now know how to connect and share your data from Salesforce Data Cloud to Snowflake. This powerful knowledge allows you to bypass time-consuming steps and build a robust integration faster. 
 
